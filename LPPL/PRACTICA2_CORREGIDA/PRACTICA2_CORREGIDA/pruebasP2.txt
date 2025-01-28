@@ -1,0 +1,11 @@
+siendo
+	
+	euros = 5,
+	centimos1 = 4.29,
+	centimos2 = 3.1E2,
+	centimos3 = 2 * euros
+evalua
+
+	switch ( euros ) { case 4 : 3 * centimos1 ;
+		           case 5 : 1.66 * centimos2 ;
+	                  default : 4 * euros + 1.66 * (centimos1 + centimos3 ) ; }

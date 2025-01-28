@@ -1,0 +1,12 @@
+cont = 1;
+while (cont == 1) do {
+    if (i >= x + y) then {
+        x = x + y;
+    } else {
+        if (i != x * y) then {
+            x = x + y;
+        } else {
+            cont = 0;
+        }
+    }
+}

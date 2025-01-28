@@ -1,0 +1,10 @@
+En el ejercicio 2, Calgary es incapaz de identificar el 'grammar' ya que no soporta '='. 
+Para solucionar este error, simplemente lo sustituimos por un 'asign'. El 'Grammar' quedaría de esta manera:
+
+S' -> S .
+S -> V asign S 
+    | S + P
+    | P .
+P -> ( S ).
+    | i .
+V -> i .

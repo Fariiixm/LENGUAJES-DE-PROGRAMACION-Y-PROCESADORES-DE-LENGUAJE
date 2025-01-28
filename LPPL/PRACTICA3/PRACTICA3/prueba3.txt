@@ -1,0 +1,4 @@
+x = x + 1; 
+if ( x >= 3 ) then { x = x * 3; } else { x = x - 3; } 
+while ( x != 2 ) do { x = x - 1; } 
+x = x * 2;
